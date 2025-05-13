@@ -1,5 +1,6 @@
 object camion {
     const carga = []
+    const bultos = []
     method cargar(unaCosa) {
         carga.add(unaCosa)
     }

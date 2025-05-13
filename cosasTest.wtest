@@ -1,8 +1,12 @@
 import cosas.*
 
 describe "group of test for cosas" {
-
   test "first test" {
+    residuosRadiactivos.peso(30)
+    embalajeDeSeguridad.cargaCubierta(residuosRadiactivos)
+    contenedor.cargar(bumblebee)
+    contenedor.cargar(arena)
+    contenedor.cargar(knightRider)
     assert.that(true)
   }
 
